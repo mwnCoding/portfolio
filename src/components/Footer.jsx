@@ -1,8 +1,12 @@
 function Footer() {
   return (
-    <div className="flex justify-center">
-      <span>I am footer!</span>
-    </div>
+    <footer className="flex justify-center h-16 ">
+      <span>home</span>
+      <span>about</span>
+      <span>projects</span>
+      <span>cv</span>
+      <span>contact</span>
+    </footer>
   );
 }
 

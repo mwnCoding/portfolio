@@ -1,18 +1,34 @@
+import { Link } from "react-router-dom";
+
 function Navbar() {
   return (
     <nav className="bg-black border-white flex flex-row items-center justify-between mb-5">
-      <div className="w-12 h-12 bg-white flex justify-center items-center">
-        <span className="text-black text-center">MNC</span>
-      </div>
+      <Link to="/">
+        <div className="w-12 h-12 bg-white flex justify-center items-center">
+          <span className="text-black text-center">MNC</span>
+        </div>
+      </Link>
       <div>
-        <span className="text-white mx-1">about</span>
-        <span className="text-white mx-1">projects</span>
-        <span className="text-white mx-1">cv</span>
-        <span className="text-white mx-1">contact</span>
+        <Link to="/about">
+          <span className="text-white mx-1">about</span>
+        </Link>
+        <Link to="/projects">
+          <span className="text-white mx-1">projects</span>
+        </Link>
+        <Link to="/cv">
+          <span className="text-white mx-1">cv</span>
+        </Link>
+        <Link to="/contact">
+          <span className="text-white mx-1">contact</span>
+        </Link>
       </div>
       <div className="flex">
-        <span className="text-white mx-1">IN</span>
-        <span className="text-white mx-1">GH</span>
+        <a href="https://www.linkedin.com/in/maximiliano-wullbrand-naddeo-a656a3257/">
+          <span className="text-white mx-1">IN</span>
+        </a>
+        <a href="https://github.com/mwnCoding">
+          <span className="text-white mx-1">GH</span>
+        </a>
       </div>
     </nav>
   );

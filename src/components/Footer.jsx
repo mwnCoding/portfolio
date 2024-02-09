@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className="flex flex-row justify-center absolute bottom-0 inset-x-0">
+    <div className="flex justify-center">
       <span>I am footer!</span>
     </div>
   );

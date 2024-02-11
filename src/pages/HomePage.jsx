@@ -23,8 +23,14 @@ function HomePage() {
               comments and rate your experience
             </p>
             <div className="flex justify-around w-full mb-3">
-              <button>Go to site</button>
-              <button>Details</button>
+              <a href="https://rentingstuffonline.netlify.app/">
+                <button className="bg-gnarly-grey text-white rounded-md p-2 w-24">
+                  Go to site
+                </button>
+              </a>
+              <button className="bg-gnarly-grey text-white rounded-md p-2 w-24">
+                Details
+              </button>
             </div>
           </div>
         </div>

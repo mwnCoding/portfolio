@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import { SocialIcon } from "react-social-icons";
 
 function Navbar() {
   return (
     <nav className="bg-black border-black flex flex-row items-center justify-between h-12 mb-5 pr-2">
       <Link to="/">
-        <div className="w-12 h-12 bg-white border-b-black border-b-2 flex justify-center items-center">
-          <span className="text-black text-center">MNC</span>
+        <div className="w-12 h-12 bg-gnarly-grey border-b-black border-b-2 flex justify-center items-center">
+          <span className="text-white text-center">MNC</span>
         </div>
       </Link>
       <div>
@@ -22,13 +23,18 @@ function Navbar() {
           <span className="text-white mx-1">contact</span>
         </Link>
       </div>
-      <div className="flex ">
-        <a href="https://www.linkedin.com/in/maximiliano-wullbrand-naddeo-a656a3257/">
-          <span className="text-white mr-2">IN</span>
-        </a>
-        <a href="https://github.com/mwnCoding">
-          <span className="text-white ml-2">GH</span>
-        </a>
+      <div className="flex justify-between items-center">
+        <SocialIcon
+          bgColor="#2F393A"
+          style={{ height: 30, width: 30 }}
+          url="https://www.linkedin.com/in/maximiliano-wullbrand-naddeo-a656a3257/"
+          className="mr-2"
+        />
+        <SocialIcon
+          bgColor="#2F393A"
+          style={{ height: 30, width: 30 }}
+          url="https://github.com/mwnCoding"
+        />
       </div>
     </nav>
   );

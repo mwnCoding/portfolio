@@ -3,7 +3,7 @@ import { SocialIcon } from "react-social-icons";
 
 function Navbar() {
   return (
-    <nav className="bg-black border-black flex flex-row items-center justify-between h-12 mb-5 pr-2">
+    <nav className="bg-black border-black flex flex-row items-center justify-between h-12 mb-8 pr-2">
       <Link to="/">
         <div className="w-12 h-12 bg-gnarly-grey border-b-black border-b-2 flex justify-center items-center">
           <span className="text-white text-center">MNC</span>

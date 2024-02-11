@@ -1,9 +1,11 @@
 import "../index.css";
 
+import { Link } from "react-router-dom";
+
 function HomePage() {
   return (
     <>
-      <div className="flex flex-col items-center mb-10 mx-12">
+      <div className="flex flex-col items-center mb-10 mx-8">
         <h1 className="text-3xl font-bold mb-2 text-center">Welcome!</h1>
         <p className="mb-12 text-center">
           My name is Maximiliano Naddeo, I am a front-end developer based in
@@ -28,9 +30,11 @@ function HomePage() {
                   Go to site
                 </button>
               </a>
-              <button className="bg-gnarly-grey text-white rounded-md p-2 w-24">
-                Details
-              </button>
+              <Link to="/project/:0">
+                <button className="bg-gnarly-grey text-white rounded-md p-2 w-24">
+                  Details
+                </button>
+              </Link>
             </div>
           </div>
         </div>

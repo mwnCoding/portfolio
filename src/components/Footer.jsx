@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer
       id="footer"
-      className="flex justify-center items-center bg-black text-white w-screen mt-auto py-4"
+      className="flex justify-center items-center bg-black text-white w-screen py-4 mt-auto"
     >
       <Link to="/">
         <span className="mx-2">home</span>

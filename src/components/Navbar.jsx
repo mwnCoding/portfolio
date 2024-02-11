@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="bg-black border-black flex flex-row items-center justify-between h-12 mb-5">
+    <nav className="bg-black border-black flex flex-row items-center justify-between h-12 mb-5 pr-2">
       <Link to="/">
         <div className="w-12 h-12 bg-white border-b-black border-b-2 flex justify-center items-center">
           <span className="text-black text-center">MNC</span>
@@ -22,12 +22,12 @@ function Navbar() {
           <span className="text-white mx-1">contact</span>
         </Link>
       </div>
-      <div className="flex">
+      <div className="flex ">
         <a href="https://www.linkedin.com/in/maximiliano-wullbrand-naddeo-a656a3257/">
-          <span className="text-white mx-1">IN</span>
+          <span className="text-white mr-2">IN</span>
         </a>
         <a href="https://github.com/mwnCoding">
-          <span className="text-white mx-1">GH</span>
+          <span className="text-white ml-2">GH</span>
         </a>
       </div>
     </nav>

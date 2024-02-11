@@ -1,6 +1,9 @@
 function Footer() {
   return (
-    <footer className="flex justify-center h-16 ">
+    <footer
+      id="footer"
+      className="flex justify-center items-center bg-black text-white w-screen mt-auto py-4"
+    >
       <span>home</span>
       <span>about</span>
       <span>projects</span>

@@ -3,7 +3,7 @@ import "../index.css";
 function HomePage() {
   return (
     <>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center mb-10 mx-16">
         <h1 className="text-3xl font-bold mb-2">Welcome!</h1>
         <p className="mb-12">
           My name is Maximiliano Naddeo, I am a front-end developer based in

@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="bg-black border-black flex flex-row items-center justify-between mb-5">
+    <nav className="bg-black border-black flex flex-row items-center justify-between h-12 mb-5">
       <Link to="/">
-        <div className="w-12 h-12 bg-white flex justify-center items-center">
+        <div className="w-12 h-12 bg-white border-b-black border-b-2 flex justify-center items-center">
           <span className="text-black text-center">MNC</span>
         </div>
       </Link>
